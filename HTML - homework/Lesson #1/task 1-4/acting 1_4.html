@@ -2,9 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Cards for Gamers</title>
+    <style>
+        .card {
+            display: inline-flex;
+            justify-content: center;
+            align-items: flex-start;
+            width: 70px;
+            height: 49px;
+            background-color: lightgray;
+            font-size: 40px;
+            margin-bottom: 20px;
+            font-family: Avenir, sans-serif;
+        }
+        .red {
+            color: darkred;
+
+        }
+        .black {
+            color: black;
+
+        }
+        .title{
+            font-family: Avenir, sans-serif;
+            font-size: 30px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+            display: block;
+
+        }
+        .card-wide{
+            width: 90px;
+
+        }
+    </style>
 </head>
 <body>
+<span class="title">Player 1:</span>
+<span class="card black">2&#9827;</span>
+<span class="card red">9&#9829;</span>
+<span class="card red">6&#9829;</span>
+<span class="card red">A&#9830;</span>
+<span class="card black">Q&#9824;</span>
+<span class="card black">J&#9827;</span>
 
+<span class="title">Player 2:</span>
+<span class="card red">3&#9827;</span>
+<span class="card black">A&#9829;</span>
+<span class="card black card-wide">10&#9827;</span>  <!-- Розширена картка -->
+<span class="card red">K&#9830;</span>
+<span class="card black">8&#9824;</span>
+<span class="card red">3&#9829;</span>
 </body>
 </html>
